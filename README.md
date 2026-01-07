@@ -1,7 +1,7 @@
 # AEM Node Validator
-Prepares AEM node path lists for replication by normalizing paths and removing invalid entries.
+Prepares AEM node lists for replication by normalizing paths and removing invalid entries.
 
-Basically fixes dev lists for AEM release managers.
+<img width="1895" height="1696" alt="image" src="https://github.com/user-attachments/assets/c3293b0d-ea67-4962-b37b-0e2ee46632cf" />
 
 ## Rules
 - ....html > /jcr:content
