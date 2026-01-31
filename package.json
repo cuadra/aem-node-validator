@@ -9,6 +9,10 @@
   "peerDependencies": {
     "typescript": "^5"
   },
+  "scripts": {
+    "build": "bun build index.html --outdir ./dist --minify",
+    "build:css": "npx @tailwindcss/cli -i ./src/index.css -o ./dist/dist.css --minify"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "bun-plugin-tailwind": "^0.1.2",
